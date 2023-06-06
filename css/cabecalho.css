@@ -1,0 +1,45 @@
+.menu {
+    display: flex;
+    align-items: center;
+    min-height: 15vh;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu .logo {
+    display: block;
+    max-width: 15%;
+    margin-left: 3vw;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+}
+
+.menu-items li {
+    list-style: none;
+}
+
+.menu-items a {
+    text-decoration: none;
+    margin-right: 3vw;
+    color: black;
+}
+
+nav a {
+    transition: 0.5s;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #208b3a;
+}
