@@ -70,8 +70,12 @@ main{
 
     .content_index .textBox{
         text-align: center;
+        width: 90%;
     }
-
+    .content_index .textBox p{
+        text-align: left;
+    }
+    
     /*BREAKPOINTS DOS CARDS*/
     .content_cards .row_card {
         flex-direction: column;
@@ -86,11 +90,20 @@ main{
     /*BREAKPOINTS DA MAIN*/
     .content_main .textBox{
         max-width: 100%;
+        margin-left: 2vw;
     }
 
     .content_main img{
         margin-top: 5vh;
 
+    }
+
+    .contact form {
+        width: 100%;
+        max-width: 100%;
+    }
+    .content_forms .txt {
+   
     }
     /*BREAKPOINTS DO FOOTER */
     .footer {
@@ -105,8 +118,6 @@ main{
     .footer .row a i {
         margin: 0% 3%;
     }
-
-    
 }
 
 @media (max-width: 992px) {
