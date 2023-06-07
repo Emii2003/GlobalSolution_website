@@ -72,7 +72,7 @@ main{
         text-align: center;
         width: 90%;
     }
-    
+
     /*BREAKPOINTS DOS CARDS*/
     .content_cards .row_card {
         flex-direction: column;
@@ -92,16 +92,8 @@ main{
 
     .content_main img{
         margin-top: 5vh;
-
     }
-
-    .contact form {
-        width: 100%;
-        max-width: 100%;
-    }
-    .content_forms .txt {
-   
-    }
+    
     /*BREAKPOINTS DO FOOTER */
     .footer {
         padding: 5%;
@@ -141,14 +133,22 @@ main{
         display: block;
         max-width: 70%;
     }
+
+    /*BREAKPOINTS CONTATO*/
+    .contact form {
+        width: 70%;
+        max-width: 70%;
+    }
 }
 
 @media (max-width: 1200px){
+    /*BREAKPOINTS CONTATO*/
     .contact form {
-        width: 65%;
-        max-width: 65%;
+        width: 70%;
+        max-width: 70%;
     }
-    .content_forms .txt {
-        height: 7vh;
+
+    .contact form .txt{
+        height: 3.5vh;
     }
 }
