@@ -17,7 +17,11 @@ body {
     background-color: #EBE9E9;
 }
 
-@media screen and (max-width: 600px) {
+main{
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
     h1 {
         font-size: 1.5rem;
     }
@@ -27,11 +31,6 @@ body {
         flex-wrap: wrap;
     }
 
-    .menu .logo{
-        min-width: 25%;
-        z-index: 3;
-    }
-    
     .menu-items {
         display: none;
         flex-direction: column;
@@ -100,6 +99,11 @@ body {
 }
 
 @media (max-width: 992px) {
+
+    .menu .logo{
+        min-width: 25%;
+        z-index: 3;
+    }
     /*BREAKPOINTS DA INDEX*/
     .content_index .textBox h1 {
         line-height: 3rem;
@@ -112,7 +116,12 @@ body {
 
      /*BREAKPOINTS DOS CARDS*/
     .content_cards .card {
-        width: 50%;
+        width: 60%;
+    }
+
+    .content_cards .row_card .card img{
+        display: block;
+        max-width: 70%;
     }
 }
 
