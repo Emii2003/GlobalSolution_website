@@ -83,6 +83,15 @@ main{
         margin-bottom: 10vh;
     }
 
+    /*BREAKPOINTS DA MAIN*/
+    .content_main .textBox{
+        max-width: 100%;
+    }
+
+    .content_main img{
+        margin-top: 5vh;
+
+    }
     /*BREAKPOINTS DO FOOTER */
     .footer {
         padding: 5%;
@@ -96,13 +105,14 @@ main{
     .footer .row a i {
         margin: 0% 3%;
     }
+
+    
 }
 
 @media (max-width: 992px) {
-
+    /*BREAKPOINTS MENU*/
     .menu .logo{
         min-width: 25%;
-        z-index: 3;
     }
     /*BREAKPOINTS DA INDEX*/
     .content_index .textBox h1 {
