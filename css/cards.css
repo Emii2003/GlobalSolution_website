@@ -34,9 +34,9 @@
 }
  .content_cards .row_card .card img{
     display: block;
-    max-width: 70%;
+    width: 70%;
+    height: 70%;
 }
-
 .content_cards .card p{
     padding: 20px;
 }
