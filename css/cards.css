@@ -34,8 +34,7 @@
 }
  .content_cards .row_card .card img{
     display: block;
-    max-width: 70vw;
-    max-height: 30vh;
+    max-width: 70%;
 }
 
 .content_cards .card p{

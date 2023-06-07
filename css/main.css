@@ -2,12 +2,10 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-top: 10vh;
 }
 
 .content_index .textBox{
     width: 40vw;
-
 }
 .content_index .imgBox img{
     display: block;
@@ -52,6 +50,7 @@
 .content_main{
     display: flex;
     flex-direction: column;
+    margin-bottom: 10vh;
 }
 .content_main section{
     display: flex;
