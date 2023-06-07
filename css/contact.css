@@ -1,0 +1,77 @@
+.contact{
+    display: flex;
+    margin-top: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact form{
+    display: flex;
+    width: 35%;
+    max-width: 35%;
+    border-radius: 25px;
+    height: 75vh;
+    max-height: 75vh;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #263238;
+}
+
+.contact form .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .contact form h1{
+    color: #fff;
+    margin-left: 1vw;
+    font-weight: lighter;
+} 
+
+.contact form img{
+    display: block;
+    width: 6%;    
+}
+
+.content_forms{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    align-self: center;
+    justify-content: center;
+}
+
+.content_forms label{
+    color: #fff;
+    font-weight: lighter;
+    line-height: 40px;
+}
+
+.content_forms .txt{
+    padding: 5px;
+    height: 5vh;
+}
+
+.content_forms .txt_area{
+    height: 10vh;
+    padding: 5px;
+    margin-bottom: 2.5vh;
+}
+
+.content_forms .button{
+    width: 10vw;
+    height: 5vh;
+    color: #fff;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    align-self: center;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.content_forms .button:hover{
+    background-color: #fff;
+    color: #263238;
+}
