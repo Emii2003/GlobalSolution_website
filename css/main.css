@@ -1,0 +1,82 @@
+.content_index{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.content_index .textBox{
+    width: 40vw;
+
+}
+.content_index .imgBox img{
+    display: block;
+    width: 30vw;
+}
+
+.content_index .textBox h1{
+    color: #333;
+    line-height: 3.5rem;
+    font-weight: bold;
+}
+
+.content_index .textBox h1 span{
+    color: #1A7431;
+}
+
+.content_index .textBox p{
+    margin-top: 2vh;
+    color:#333;
+    margin-bottom: 5vh;
+}
+
+.content_index .textBox a{
+    padding: 2% 8%;
+    background-color: #017143;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: 0.1s;
+}
+
+.content_index .textBox a:hover{
+    background-color: transparent;
+    color: #017143;
+    border: 3px solid #017143;
+}
+
+.content_main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+.content_main section{
+    display: flex;
+    justify-content: center;
+}
+
+.content_main .textBox{
+    width: 30%;
+    margin: 5vw;
+}
+
+.content_main .textBox h1{
+    margin-top: 5vh;
+    color: #333;
+    font-size: 2em;
+    line-height: 3em;
+    font-weight: bold;
+}
+
+.content_main .imgBox img{
+    display: block;
+    width: 75%;
+}
+
+.content_main p{
+    color:#333;
+}
