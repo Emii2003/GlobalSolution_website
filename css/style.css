@@ -92,16 +92,13 @@ main{
 
     .content_main img{
         margin-top: 5vh;
-
     }
-
+    
     .contact form {
         width: 100%;
         max-width: 100%;
     }
-    .content_forms .txt {
-   
-    }
+
     /*BREAKPOINTS DO FOOTER */
     .footer {
         padding: 5%;
