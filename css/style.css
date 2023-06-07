@@ -72,9 +72,6 @@ main{
         text-align: center;
         width: 90%;
     }
-    .content_index .textBox p{
-        text-align: left;
-    }
     
     /*BREAKPOINTS DOS CARDS*/
     .content_cards .row_card {
