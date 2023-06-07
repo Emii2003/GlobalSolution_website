@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('./cabecalho.css');
+@import url('./cards.css');
+@import url('./footer.css');
+@import url('./main.css');
+@import url('./contact.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #EBE9E9;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    /*BREAKPOINTS MENU*/
+    .menu {
+        padding: 10px 20px;
+        flex-wrap: wrap;
+    }
+
+    .menu .logo{
+        min-width: 25%;
+        z-index: 3;
+    }
+    
+    .menu-items {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        background-color: #EBE9E9;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .menu-items.show {
+      display: flex;
+      max-width: 100%;
+    }
+    
+    .menu-toggle {
+        display: block;
+        z-index: 3;
+        order: 1;
+        transition: .5s;
+    }
+    
+    .menu-toggle.active {
+        transform: rotate(180deg);
+    }
+    
+    .menu-items li {
+        margin: 10px 0;
+    }
+
+    /*BREAKPOINTS DA PAGINA CONTATO*/
+    .contact form {
+        width: 70%;
+        max-width: 70%;
+    }
+
+    .content_forms label {
+        font-size: 1rem;
+    }
+
+    /*BREAKPOINTS DA MAIN*/
+    .content_main .textBox h1 {
+        line-height: 1.5rem;
+    }
+
+    /*BREAKPOINTS DO FOOTER */
+    .footer {
+        padding: 5%;
+    }
+
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+    }
+
+    .footer .row a i {
+        margin: 0% 3%;
+    }
+
+    /*BREAKPOINTS DA INDEX*/
+    .content_index{
+        flex-direction: column-reverse;
+    }
+
+    .content_index .textBox{
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    /*BREAKPOINTS DA PAGINA CONTATO*/
+    .contact form {
+        width: 50%;
+        max-width: 50%;
+    }
+
+    .content_forms .txt {
+        height: 7vh;
+    }
+
+    /*BREAKPOINTS DOS CARDS*/
+    .content_cards .row_card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content_cards .card {
+        width: 25%;
+        margin-bottom: 10vh;
+    }
+
+    /*BREAKPOINTS DA MAIN*/
+    .content_main .textBox h1 {
+        line-height: 3rem;
+    }
+
+    /*BREAKPOINTS DA INDEX*/
+    .content_index .textBox h1 {
+        line-height: 3rem;
+    }
+
+    .content_index .textBox {
+        width: 40%;
+    }
+
+}
+
+@media (max-width: 1200px){
+    .contact form {
+        width: 40%;
+        max-width: 50%;
+    }
+
+    .content_forms .txt {
+        height: 7vh;
+    }
+}

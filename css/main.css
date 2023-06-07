@@ -1,3 +1,4 @@
+
 .content_index{
     display: flex;
     justify-content: center; 
@@ -79,4 +80,5 @@
 
 .content_main p{
     color:#333;
+
 }
