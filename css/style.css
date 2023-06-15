@@ -134,18 +134,12 @@ main{
         max-width: 70%;
     }
 
-    /*BREAKPOINTS CONTATO*/
-    .contact form {
-        width: 70%;
-        max-width: 70%;
-    }
 }
 
 @media (max-width: 1200px){
     /*BREAKPOINTS CONTATO*/
     .contact form {
-        width: 70%;
-        max-width: 70%;
+        width: 50%;
     }
 
     .contact form .txt{
